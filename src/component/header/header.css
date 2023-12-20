@@ -1,0 +1,9 @@
+.header-main{
+    margin-bottom: 10%;    
+}
+
+@media only screen and (max-width: 600px) {
+    .header-main{
+        margin-bottom: 20%;
+    }
+  }

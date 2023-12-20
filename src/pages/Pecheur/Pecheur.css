@@ -1,0 +1,16 @@
+.pecheurContainer{
+    margin:auto;
+    width:80%;
+}
+
+.bascule-content img{
+    width:100%;
+}
+
+.pecheur-bascule{
+    padding-top:20px;
+}
+
+.pecheurContainer h1{
+    text-align:center;
+}

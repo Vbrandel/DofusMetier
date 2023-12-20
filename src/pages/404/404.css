@@ -1,0 +1,35 @@
+.errorComponent{
+    display:flex;
+    align-items:center;
+    background-color: #1F2016;
+    width: 50%;
+    padding: 40px;
+    margin:6vw auto;
+    border-radius:45px;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
+}
+
+.errorComponent button{
+    padding:15px 30px;
+    margin-top:15px;
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+.errorComponent button a{
+    text-decoration: none;
+    color: #1F2016;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .errorComponent{
+        flex-direction: column;
+        width: 70%;
+        border-radius:20px;
+    }
+    .errorComponent button{
+        width:100%;
+    }
+  }

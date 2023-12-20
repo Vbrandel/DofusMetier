@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url('/src/assets/bg-dofusu.webp');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body::before{
+  background-color: black;
+}
+
+.container {
+  max-width: 1340px;
+  margin: auto;
+}
+
+.titre{
+  margin-top:4vw;
+  text-align: center;
+}
+
+.barre-metier{
+  background-color: #1F2016;
+  margin: 4vw 20% 0 20%;
+  padding: 30px 0 30px 0;
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+}
+
+.barre-metier ul{
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.barre-metier h2{
+  text-align:center;
+  color:white;
+}
+
+.barre-metier img{
+  width:8vw;
+  opacity: 0.8;
+}
+
+.barre-metier img:hover{
+  box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.1);
+  opacity:1;
+  border-radius: 15px;
+}
+
+.barre-metier a{
+  display:flex;
+  flex-direction: column;
+  margin:20px;
+  text-align: center;
+  gap: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  .barre-metier ul{
+    flex-direction: column;
+  }
+  .barre-metier img{
+    width:100%;
+    border-radius: 40px;
+  }
+  .barre-metier img:hover{
+    border-radius: 40px;
+  }
+  .barre-metier{
+    margin: 4vw 5% 0 5%;
+  }
+  .titre{
+    margin:8vw 0;
+  }
+}

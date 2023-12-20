@@ -1,0 +1,76 @@
+.bascule-elements {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    gap: 10%;
+}
+.bascule-elements button {
+    background: #1F2016;
+    border: none;
+    padding: 5px;
+    font-family: 'Helvetica';
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.button-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    padding-inline: 15px;
+    background: #1F2016;
+}
+.button-bar img {
+    transition-duration: 0.5s;
+    width: 5%;
+    padding-right: 10px;
+}
+.arrow.rotate {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+.bascule-content {
+    background: #f7f7f7;
+    border-radius: 0 0 5px 5px;
+    color: #ff6060;
+    transition: all 0.3s linear;
+    height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.bascule-content h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0px;
+    text-align: left;
+}
+@media only screen and (min-width: 720px) {
+    .bascule-elements {
+        margin-bottom: 30px;
+   }
+    .bascule-elements button {
+        font-size: 24px;
+   }
+    .button-bar {
+        border-radius: 5px;
+        padding: 10px;
+   }
+    .button-bar img {
+        width: 30px;
+   }
+    .arrow.rotate {
+        margin-right: 10px;
+   }
+    .bascule-content h4 {
+        padding: 20px 0px;
+        font-size: 20px;
+   }
+}
