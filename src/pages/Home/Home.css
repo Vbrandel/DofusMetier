@@ -4,11 +4,6 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   
-  body{
-    background-image: url('/src/assets/bg-dofusu.webp');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }©
   
   .container {
     max-width: 1340px;

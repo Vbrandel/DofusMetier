@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -8,6 +8,7 @@ body{
   background-image: url('/src/assets/bg-dofusu.webp');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body::before{
@@ -82,4 +83,4 @@ body::before{
   .titre{
     margin:8vw 0;
   }
-}
+} */
