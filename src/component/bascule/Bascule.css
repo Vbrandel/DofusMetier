@@ -39,17 +39,21 @@
     background: #f7f7f7;
     border-radius: 0 0 5px 5px;
     color: #ff6060;
-    transition: all 0.3s linear;
-    height: 0;
+    transition: max-height 0.4s ease, padding 0s ease 0.4s;
+    max-height: 0;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0;
+}
+.bascule-content.show {
+    max-height: 2000px;
+    padding: 30px;
+    transition: max-height 0.4s ease, padding 0s ease;
 }
 .bascule-content h4 {
     margin: 0;
     font-size: 20px;
     font-weight: 300;
-    padding: 20px 0px;
     text-align: left;
 }
 @media only screen and (min-width: 720px) {
@@ -70,7 +74,6 @@
         margin-right: 10px;
    }
     .bascule-content h4 {
-        padding: 20px 0px;
         font-size: 20px;
    }
 }

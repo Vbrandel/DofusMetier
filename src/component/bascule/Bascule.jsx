@@ -25,7 +25,9 @@ function Bascule(props) {
                             className={`arrow ${open ? 'rotate' : ''}`}
                     />
                 </div>
-                <div className={`bascule-content`} style={{height: open ? `100%` : 0}}>
+                <div 
+                    className={`bascule-content ${open ? 'show' : ''}`}
+                >
                     <h4 ref={basculeContent}></h4>
                     {props.children}
                 </div>
