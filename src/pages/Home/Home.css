@@ -1,17 +1,11 @@
-*{
-    margin:0;
-    padding: 0;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  }
+
   
-  
-  .container {
+  /* .container {
     max-width: 1340px;
     margin: auto;
-  }
+  } */
   
   .titre{
-    margin-top:4vw;
     text-align: center;
   }
   
@@ -35,7 +29,7 @@
   }
   
   .barre-metier img{
-    width:8vw;
+    width:7.5vw;
     opacity: 0.8;
   }
   

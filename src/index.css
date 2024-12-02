@@ -1,4 +1,4 @@
-body{
+html, body{
   background-image: url('/src/assets/bg-dofusu.webp');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -7,9 +7,19 @@ body{
   padding: 0;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
+  height: 100%;
+  
 }
 
-.container{
-  /* height: 100vh;
-  overflow: hidden; */
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  display: block; /* Ceci peut aider à éviter les espaces indésirables sous les images */
 }

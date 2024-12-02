@@ -13,9 +13,7 @@ function Home() {
 
   return (
     <>
-      <div className='container'>
         <h1 class="titre">Dofus métier WIP</h1>
-      </div>
       
       <div className='barre-metier'>
         <h2>Récolte</h2>
